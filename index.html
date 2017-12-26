@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css" />
     <title>Tea Cozy</title>
   </head>
   <body>
@@ -11,52 +12,52 @@
     <div class="page">
 
       <header>
-
         <div class="header">
 
           <img src="resources/images/img-tea-cozy-logo.png" alt="cozy tea logo">
 
           <nav class="menu">
 
-            <span><a href="#mission">Mission &nbsp;</a></span>
-            <span><a href="#featured">Featured Tea &nbsp;</a></span>
-            <span><a href="#locations">Locations &nbsp;</a></span>
+            <span><a href="#mission">Mission</a></span>
+            <span><a href="#featured">Featured Tea</a></span>
+            <span><a href="#locations">Locations</a></span>
 
           </nav>
 
-        </div>                  <!-- header div closure -->
+        </div>
+
 
       </header>
 
-      <div class="main-photo">
+      <div class="mission-container">        <!-- Image is a background image -->
 
-        <img src="resources/images/img-mission-background.jpg" alt="inviting cup of tea">
+        <div class="mission-spanner" id="mission">
 
-      </div>                      <!-- main-photo div closure -->
+          <h2>
+            Our Mission
+          <h2>
 
-      <div id="mission">
+          <h4>
+            Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea
+          </h4>
 
-        <h2>Our Mission</h2>
+        </div>                      <!-- mission-spanner div closure -->
 
-        <h4>
-          Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea
-        </h4>
+      </div>                        <!-- main photo div closure -->
 
-      </div>                      <!-- mission-spanner div closure -->
+      <div class="featured-container">
 
-      <div id="featured">
-
-        <div class="tea-txt">
+        <div class="featured-text">
 
           <h2>Tea of the Month</h2>
 
           <h4>What's Steeping at The Tea Cozy?</h4>
 
-        </div>                      <!-- tea-text div closure -->
+        </div>
 
-        <div class="teaphotos-line1">
+        <div class="teaphotos-1">
 
-          <div class="photo-1a">
+          <div class="photo-box">
 
             <img src="resources/images/img-berryblitz.jpg" alt="top view of tea cup">
 
@@ -64,7 +65,7 @@
 
           </div>                    <!-- photo-1a div closure -->
 
-          <div class="photo-1b">
+          <div class="photo">
 
             <img src="resources/images/img-spiced-rum.jpg" alt="box of rum tea">
 
@@ -72,7 +73,7 @@
 
           </div>                    <!-- photo-1b div closure -->
 
-          <div class="photo-1c">
+          <div class="photo">
 
             <img src="resources/images/img-donut.jpg" alt="delicious donut">
 
@@ -80,11 +81,11 @@
 
           </div>                    <!-- photo-1c div closure -->
 
-        </div>                      <!-- teaphotos-line1 photos div closure -->
+        </div>                      <!-- teaphotos-l photos div closure -->
 
-        <div class="teaphotos-line2">
+        <div class="teaphotos-2">
 
-          <div class="photo-2a">
+          <div class="photo">
 
             <img src="resources/images/img-myrtle-ave.jpg" alt="full cup of tea">
 
@@ -92,7 +93,7 @@
 
           </div>                    <!-- photo-2a div closure -->
 
-          <div class="photo-2b">
+          <div class="photo">
 
             <img src="resources/images/img-bedford-bizarre.jpg" alt="cup of tea and sugar">
 
@@ -100,48 +101,50 @@
 
           </div>                    <!-- photo-2b div closure -->
 
-        </div>                      <!-- teaphotos-line2 photos div closure -->
+        </div>                      <!-- teaphotos-2 photos div closure -->
 
       </div>                        <!-- tea-of-the-month div closure -->
 
       <div id="locations">
 
-        <img src=resources/images/.....)>
+        <div class="locations-header">
 
-        <h2>Locations</h2>
+          <h2>Locations</h2>
 
-        <div class="location-markers">
+        </div>
 
-          <div class="downtown">
+        <div class="locations-container">
 
-            <span class="address-h"><h3>Downtown</h3><</span>
-            <span class="address-b">384 West 4th Street</span>
-            <span class="address-b">Suite 108</span>
-            <span class="address-b">Portland, Maine</span>
+          <div class="location-box">
 
-          </div>
-
-          <div class="east-bayside">
-
-            <span class="address-h"><h3>East Bayside</h3></span>
-            <span class="address-b">3433 Phisherman's Avenue</span>
-            <span class="address-b">(Northwest Corner)</span>
-            <span class="address-b">Portland, Maine</span>
+            <span><h3>Downtown</h3></span>
+            <span>384 West 4th Street</span>
+            <span>Suite 108</span>
+            <span>Portland, Maine</span>
 
           </div>
 
-          <div class="oakdale">
+          <div class="location-box" id="margin">
 
-            <span class="address-h"><h3>Oakdale</h3></span>
-            <span class="address-b">515 Crescent Avenue</span>
-            <span class="address-b">Second Floor</span>
-            <span class="address-b">Portland, Maine</span>
+            <span><h3>East Bayside</h3></span>
+            <span>3433 Phisherman's Avenue</span>
+            <span>(Northwest Corner)</span>
+            <span>Portland, Maine</span>
+
+          </div>
+
+          <div class="location-box">
+
+            <span><h3>Oakdale</h3></span>
+            <span>515 Crescent Avenue</span>
+            <span>Second Floor</span>
+            <span>Portland, Maine</span>
 
           </div>
 
         </div>                        <!-- locations boxes div closure -->
 
-      </divL                          <!-- location div closure -->
+      </div>                          <!-- location div closure -->
 
       <div class="email-phone">
 
@@ -153,7 +156,11 @@
 
       <footer>
 
-        <span><h5>copyright The Tea Cozy 2017</h5></span>
+        <div class="footer">
+
+          <h5 id="c">copyright The Tea Cozy 2017</h5>
+
+        </div>
 
       </footer>
 
