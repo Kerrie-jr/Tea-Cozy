@@ -31,7 +31,6 @@ header {
 
 .header {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: auto;
@@ -51,7 +50,7 @@ header {
 }
 
 a {
-  color: seashell;     /** text-decoration:underline; NOT NEEDED **/
+  color: seashell;
 }
 
 /** Mission statement and banner section **/
@@ -143,7 +142,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-image: url("../images/img-locations-background (1).jpg");
+  background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
   margin-top: 60px;
